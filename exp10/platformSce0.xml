@@ -19,14 +19,14 @@
         <host id="Client_0005" power="1E9"/>
         <host id="Client_0006" power="1E9"/>
         <host id="Client_0007" power="1E9"/>
-        <link bandwidth="1E7" id="Link_0000"/>
-        <link bandwidth="1E7" id="Link_0001"/>
-        <link bandwidth="1E7" id="Link_0002"/>
-        <link bandwidth="1E7" id="Link_0003"/>
-        <link bandwidth="1E7" id="Link_0004"/>
-        <link bandwidth="1E7" id="Link_0005"/>
-        <link bandwidth="1E7" id="Link_0006"/>
-        <link bandwidth="1E7" id="Link_0007"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0000"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0001"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0002"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0003"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0004"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0005"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0006"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0007"/>
         <router id="R_000"/>
         <route dst="Client_0000" src="R_000" symmetrical="YES">
           <link_ctn id="Link_0000"/>
@@ -62,14 +62,14 @@
         <host id="Client_0015" power="1E9"/>
         <host id="Client_0016" power="1E9"/>
         <host id="Client_0017" power="1E9"/>
-        <link bandwidth="1E7" id="Link_0010"/>
-        <link bandwidth="1E7" id="Link_0011"/>
-        <link bandwidth="1E7" id="Link_0012"/>
-        <link bandwidth="1E7" id="Link_0013"/>
-        <link bandwidth="1E7" id="Link_0014"/>
-        <link bandwidth="1E7" id="Link_0015"/>
-        <link bandwidth="1E7" id="Link_0016"/>
-        <link bandwidth="1E7" id="Link_0017"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0010"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0011"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0012"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0013"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0014"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0015"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0016"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0017"/>
         <router id="R_001"/>
         <route dst="Client_0010" src="R_001" symmetrical="YES">
           <link_ctn id="Link_0010"/>
@@ -105,14 +105,14 @@
         <host id="Client_0025" power="1E9"/>
         <host id="Client_0026" power="1E9"/>
         <host id="Client_0027" power="1E9"/>
-        <link bandwidth="1E7" id="Link_0020"/>
-        <link bandwidth="1E7" id="Link_0021"/>
-        <link bandwidth="1E7" id="Link_0022"/>
-        <link bandwidth="1E7" id="Link_0023"/>
-        <link bandwidth="1E7" id="Link_0024"/>
-        <link bandwidth="1E7" id="Link_0025"/>
-        <link bandwidth="1E7" id="Link_0026"/>
-        <link bandwidth="1E7" id="Link_0027"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0020"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0021"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0022"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0023"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0024"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0025"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0026"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0027"/>
         <router id="R_002"/>
         <route dst="Client_0020" src="R_002" symmetrical="YES">
           <link_ctn id="Link_0020"/>
@@ -148,14 +148,14 @@
         <host id="Client_0035" power="1E9"/>
         <host id="Client_0036" power="1E9"/>
         <host id="Client_0037" power="1E9"/>
-        <link bandwidth="1E7" id="Link_0030"/>
-        <link bandwidth="1E7" id="Link_0031"/>
-        <link bandwidth="1E7" id="Link_0032"/>
-        <link bandwidth="1E7" id="Link_0033"/>
-        <link bandwidth="1E7" id="Link_0034"/>
-        <link bandwidth="1E7" id="Link_0035"/>
-        <link bandwidth="1E7" id="Link_0036"/>
-        <link bandwidth="1E7" id="Link_0037"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0030"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0031"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0032"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0033"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0034"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0035"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0036"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0037"/>
         <router id="R_003"/>
         <route dst="Client_0030" src="R_003" symmetrical="YES">
           <link_ctn id="Link_0030"/>
@@ -191,14 +191,14 @@
         <host id="Client_0045" power="1E9"/>
         <host id="Client_0046" power="1E9"/>
         <host id="Client_0047" power="1E9"/>
-        <link bandwidth="1E7" id="Link_0040"/>
-        <link bandwidth="1E7" id="Link_0041"/>
-        <link bandwidth="1E7" id="Link_0042"/>
-        <link bandwidth="1E7" id="Link_0043"/>
-        <link bandwidth="1E7" id="Link_0044"/>
-        <link bandwidth="1E7" id="Link_0045"/>
-        <link bandwidth="1E7" id="Link_0046"/>
-        <link bandwidth="1E7" id="Link_0047"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0040"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0041"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0042"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0043"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0044"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0045"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0046"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0047"/>
         <router id="R_004"/>
         <route dst="Client_0040" src="R_004" symmetrical="YES">
           <link_ctn id="Link_0040"/>
@@ -234,14 +234,14 @@
         <host id="Client_0055" power="1E9"/>
         <host id="Client_0056" power="1E9"/>
         <host id="Client_0057" power="1E9"/>
-        <link bandwidth="1E7" id="Link_0050"/>
-        <link bandwidth="1E7" id="Link_0051"/>
-        <link bandwidth="1E7" id="Link_0052"/>
-        <link bandwidth="1E7" id="Link_0053"/>
-        <link bandwidth="1E7" id="Link_0054"/>
-        <link bandwidth="1E7" id="Link_0055"/>
-        <link bandwidth="1E7" id="Link_0056"/>
-        <link bandwidth="1E7" id="Link_0057"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0050"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0051"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0052"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0053"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0054"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0055"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0056"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0057"/>
         <router id="R_005"/>
         <route dst="Client_0050" src="R_005" symmetrical="YES">
           <link_ctn id="Link_0050"/>
@@ -277,14 +277,14 @@
         <host id="Client_0065" power="1E9"/>
         <host id="Client_0066" power="1E9"/>
         <host id="Client_0067" power="1E9"/>
-        <link bandwidth="1E7" id="Link_0060"/>
-        <link bandwidth="1E7" id="Link_0061"/>
-        <link bandwidth="1E7" id="Link_0062"/>
-        <link bandwidth="1E7" id="Link_0063"/>
-        <link bandwidth="1E7" id="Link_0064"/>
-        <link bandwidth="1E7" id="Link_0065"/>
-        <link bandwidth="1E7" id="Link_0066"/>
-        <link bandwidth="1E7" id="Link_0067"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0060"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0061"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0062"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0063"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0064"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0065"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0066"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0067"/>
         <router id="R_006"/>
         <route dst="Client_0060" src="R_006" symmetrical="YES">
           <link_ctn id="Link_0060"/>
@@ -320,14 +320,14 @@
         <host id="Client_0075" power="1E9"/>
         <host id="Client_0076" power="1E9"/>
         <host id="Client_0077" power="1E9"/>
-        <link bandwidth="1E7" id="Link_0070"/>
-        <link bandwidth="1E7" id="Link_0071"/>
-        <link bandwidth="1E7" id="Link_0072"/>
-        <link bandwidth="1E7" id="Link_0073"/>
-        <link bandwidth="1E7" id="Link_0074"/>
-        <link bandwidth="1E7" id="Link_0075"/>
-        <link bandwidth="1E7" id="Link_0076"/>
-        <link bandwidth="1E7" id="Link_0077"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0070"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0071"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0072"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0073"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0074"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0075"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0076"/>
+        <link bandwidth="1E7" bandwidth_file="bb.bw" id="Link_0077"/>
         <router id="R_007"/>
         <route dst="Client_0070" src="R_007" symmetrical="YES">
           <link_ctn id="Link_0070"/>
@@ -3159,7 +3159,7 @@
       </route>
     </AS>
     <link bandwidth="1E9" id="BBServer_0"/>
-    <link bandwidth="5E8" id="BB_00" bandwidth_file="bb1.bw"/>
+    <link bandwidth="5E8" id="BB_00"/>
     <link bandwidth="5E8" id="BB_01"/>
     <link bandwidth="5E8" id="BB_02"/>
     <link bandwidth="5E8" id="BB_03"/>

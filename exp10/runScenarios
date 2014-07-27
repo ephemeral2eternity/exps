@@ -1,15 +1,3 @@
-# Scenario 0
-java -jar nonQoEAgent.jar platformSce0.xml deployment.xml
-mkdir rsts/nonQoESce0
-mv data/* rsts/nonQoESce0/
-java -jar nonCoopAgent.jar platformSce0.xml deployment.xml
-mkdir rsts/nonCoopSce0
-mv data/* rsts/nonCoopSce0/
-java -jar coopAgent.jar platformSce0.xml deployment.xml
-mkdir rsts/coopSce0
-mv data/* rsts/coopSce0/
-echo "Finishing Scenario 0"
-
 # Scenario 1
 java -jar nonQoEAgent.jar platformSce1.xml deployment.xml
 mkdir rsts/nonQoESce1

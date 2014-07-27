@@ -1,0 +1,19 @@
+July, 27, 2014
+Chen Wang
+
+9 Servers and 2 candidate servers per each client agent.
+Video Length: 720
+Topology: Hierarchical512
+Scenarios: 0 ~ 3
+Sce0 : bb_link_bw = 500 Mbps
+Sce1 : bb_link_bw = 250 Mbps
+Sce2 : bb_link_bw = 100 Mbps
+Sce3 : bb_link_bw = 50 Mbps
+
+Expectation: Cooperation enabled selection splits traffic between local and upper network much better than non-cooperative one.
+Possible Guess: they are similar due to the randomness of switching.
+
+Most unexpected case: though capacity to two links are the same in Sce3, because all 64 users are still competing capacity, users staying
+in the network wants to switch out if a little QoE drops and the same for users want to switch in.
+
+Further Solutions: compare QoE, if not above 0.5 difference, stay with the current one.
