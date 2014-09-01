@@ -1,0 +1,58 @@
+# Creating folders
+mkdir data
+mkdir rsts
+
+# Running Scripts of Sce0
+mkdir rsts/Sce0/
+
+# Running Sce0 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce0.xml deployment.xml
+mkdir rsts/Sce0/nonQoE
+mv data/* rsts/Sce0/nonQoE/
+
+# Running Sce0 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce0.xml deployment.xml
+mkdir rsts/Sce0/nonCoop
+mv data/* rsts/Sce0/nonCoop/
+
+# Running Sce0 for coopAgent
+java -jar coopAgent.jar platformSce0.xml deployment.xml
+mkdir rsts/Sce0/coop
+mv data/* rsts/Sce0/coop/
+
+# Running Scripts of Sce1
+mkdir rsts/Sce1/
+
+# Running Sce1 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce1.xml deployment.xml
+mkdir rsts/Sce1/nonQoE
+mv data/* rsts/Sce1/nonQoE/
+
+# Running Sce1 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce1.xml deployment.xml
+mkdir rsts/Sce1/nonCoop
+mv data/* rsts/Sce1/nonCoop/
+
+# Running Sce1 for coopAgent
+java -jar coopAgent.jar platformSce1.xml deployment.xml
+mkdir rsts/Sce1/coop
+mv data/* rsts/Sce1/coop/
+
+# Running Scripts of Sce2
+mkdir rsts/Sce2/
+
+# Running Sce2 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce2.xml deployment.xml
+mkdir rsts/Sce2/nonQoE
+mv data/* rsts/Sce2/nonQoE/
+
+# Running Sce2 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce2.xml deployment.xml
+mkdir rsts/Sce2/nonCoop
+mv data/* rsts/Sce2/nonCoop/
+
+# Running Sce2 for coopAgent
+java -jar coopAgent.jar platformSce2.xml deployment.xml
+mkdir rsts/Sce2/coop
+mv data/* rsts/Sce2/coop/
+
