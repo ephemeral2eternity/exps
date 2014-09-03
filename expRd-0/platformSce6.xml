@@ -330,8 +330,8 @@
       </route>
     </AS>
     <link bandwidth="1E9" id="BBServer_0"/>
-    <link bandwidth="1E9" id="BB_00" latency="0.003"/>
-    <link bandwidth="1E9" id="BB_01" latency="0.003"/>
+    <link bandwidth="1E9" id="BB_00" latency="0.0055"/>
+    <link bandwidth="1E9" id="BB_01" latency="0.0055"/>
     <ASroute dst="exitAS_0" gw_dst="R_0" gw_src="SRouter_0" src="serverAS_0" symmetrical="YES">
       <link_ctn id="BBServer_0"/>
     </ASroute>

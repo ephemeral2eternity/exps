@@ -9,12 +9,10 @@ mkdir rsts/Sce0/
 java -jar nonQoEAgent.jar platformSce0.xml deployment.xml
 mkdir rsts/Sce0/nonQoE
 mv data/* rsts/Sce0/nonQoE/
-
 # Running Sce0 for nonCoopAgent
 java -jar nonCoopAgent.jar platformSce0.xml deployment.xml
 mkdir rsts/Sce0/nonCoop
 mv data/* rsts/Sce0/nonCoop/
-
 # Running Sce0 for coopAgent
 java -jar coopAgent.jar platformSce0.xml deployment.xml
 mkdir rsts/Sce0/coop
@@ -27,12 +25,10 @@ mkdir rsts/Sce1/
 java -jar nonQoEAgent.jar platformSce1.xml deployment.xml
 mkdir rsts/Sce1/nonQoE
 mv data/* rsts/Sce1/nonQoE/
-
 # Running Sce1 for nonCoopAgent
 java -jar nonCoopAgent.jar platformSce1.xml deployment.xml
 mkdir rsts/Sce1/nonCoop
 mv data/* rsts/Sce1/nonCoop/
-
 # Running Sce1 for coopAgent
 java -jar coopAgent.jar platformSce1.xml deployment.xml
 mkdir rsts/Sce1/coop
@@ -45,14 +41,108 @@ mkdir rsts/Sce2/
 java -jar nonQoEAgent.jar platformSce2.xml deployment.xml
 mkdir rsts/Sce2/nonQoE
 mv data/* rsts/Sce2/nonQoE/
-
 # Running Sce2 for nonCoopAgent
 java -jar nonCoopAgent.jar platformSce2.xml deployment.xml
 mkdir rsts/Sce2/nonCoop
 mv data/* rsts/Sce2/nonCoop/
-
 # Running Sce2 for coopAgent
 java -jar coopAgent.jar platformSce2.xml deployment.xml
 mkdir rsts/Sce2/coop
 mv data/* rsts/Sce2/coop/
+
+# Running Scripts of Sce3
+mkdir rsts/Sce3/
+
+# Running Sce3 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce3.xml deployment.xml
+mkdir rsts/Sce3/nonQoE
+mv data/* rsts/Sce3/nonQoE/
+# Running Sce3 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce3.xml deployment.xml
+mkdir rsts/Sce3/nonCoop
+mv data/* rsts/Sce3/nonCoop/
+# Running Sce3 for coopAgent
+java -jar coopAgent.jar platformSce3.xml deployment.xml
+mkdir rsts/Sce3/coop
+mv data/* rsts/Sce3/coop/
+
+# Running Scripts of Sce4
+mkdir rsts/Sce4/
+
+# Running Sce4 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce4.xml deployment.xml
+mkdir rsts/Sce4/nonQoE
+mv data/* rsts/Sce4/nonQoE/
+# Running Sce4 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce4.xml deployment.xml
+mkdir rsts/Sce4/nonCoop
+mv data/* rsts/Sce4/nonCoop/
+# Running Sce4 for coopAgent
+java -jar coopAgent.jar platformSce4.xml deployment.xml
+mkdir rsts/Sce4/coop
+mv data/* rsts/Sce4/coop/
+
+# Running Scripts of Sce5
+mkdir rsts/Sce5/
+
+# Running Sce5 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce5.xml deployment.xml
+mkdir rsts/Sce5/nonQoE
+mv data/* rsts/Sce5/nonQoE/
+# Running Sce5 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce5.xml deployment.xml
+mkdir rsts/Sce5/nonCoop
+mv data/* rsts/Sce5/nonCoop/
+# Running Sce5 for coopAgent
+java -jar coopAgent.jar platformSce5.xml deployment.xml
+mkdir rsts/Sce5/coop
+mv data/* rsts/Sce5/coop/
+
+# Running Scripts of Sce6
+mkdir rsts/Sce6/
+
+# Running Sce6 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce6.xml deployment.xml
+mkdir rsts/Sce6/nonQoE
+mv data/* rsts/Sce6/nonQoE/
+# Running Sce6 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce6.xml deployment.xml
+mkdir rsts/Sce6/nonCoop
+mv data/* rsts/Sce6/nonCoop/
+# Running Sce6 for coopAgent
+java -jar coopAgent.jar platformSce6.xml deployment.xml
+mkdir rsts/Sce6/coop
+mv data/* rsts/Sce6/coop/
+
+# Running Scripts of Sce7
+mkdir rsts/Sce7/
+
+# Running Sce7 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce7.xml deployment.xml
+mkdir rsts/Sce7/nonQoE
+mv data/* rsts/Sce7/nonQoE/
+# Running Sce7 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce7.xml deployment.xml
+mkdir rsts/Sce7/nonCoop
+mv data/* rsts/Sce7/nonCoop/
+# Running Sce7 for coopAgent
+java -jar coopAgent.jar platformSce7.xml deployment.xml
+mkdir rsts/Sce7/coop
+mv data/* rsts/Sce7/coop/
+
+# Running Scripts of Sce8
+mkdir rsts/Sce8/
+
+# Running Sce8 for nonQoEAgent
+java -jar nonQoEAgent.jar platformSce8.xml deployment.xml
+mkdir rsts/Sce8/nonQoE
+mv data/* rsts/Sce8/nonQoE/
+# Running Sce8 for nonCoopAgent
+java -jar nonCoopAgent.jar platformSce8.xml deployment.xml
+mkdir rsts/Sce8/nonCoop
+mv data/* rsts/Sce8/nonCoop/
+# Running Sce8 for coopAgent
+java -jar coopAgent.jar platformSce8.xml deployment.xml
+mkdir rsts/Sce8/coop
+mv data/* rsts/Sce8/coop/
 
